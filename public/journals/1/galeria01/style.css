@@ -1,0 +1,106 @@
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; text-decoration: none;}
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; text-decoration: none;}
+a:hover, a:focus{ text-decoration: none; text-decoration-color: currentColor; text-decoration-line: none; text-decoration-style: solid;}
+.is_img > a:focus{
+    outline: none;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+body{
+	background: #fff;
+	margin: 0;
+	font-family: monospace;
+}
+h1{
+	color: #fff;
+	text-align: center;
+}
+/*ESTILO DE LA GALERIA*/
+.galeria{
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95vw;
+    width: 100%;
+}
+.galeria li{
+	margin: 5px;
+}
+.galeria img{
+	width: 280px;
+	height: 190px;
+    padding-bottom: 5px;
+}
+.galeria img:hover{
+    opacity: 1;
+    transition: .5s ease;
+    color: white;
+}
+/*ESTILOS DE MODAL*/
+.modal{
+display: none;
+}
+
+.modal:target{
+	display: block;
+	position: fixed;
+	background:rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.modal h3{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+}
+.imagen{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagen a{
+	color: #000;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.imagen a:nth-child(2){
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+.imagen img{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.cerrar{
+	display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+.cerrar:hover{
+    color: #e26627;
+}

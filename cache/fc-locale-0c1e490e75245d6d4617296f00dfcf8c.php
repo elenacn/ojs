@@ -1,0 +1,15 @@
+<?php return array (
+  'plugins.themes.default.name' => 'Tema por defecto',
+  'plugins.themes.default.description' => 'Este tema implementa la estética por defecto.',
+  'plugins.themes.default.option.typography.label' => 'Tipografa',
+  'plugins.themes.default.option.typography.description' => 'Escoge la combinación de fuentes que se ajusta a esta revista.',
+  'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Fuente digital nativa diseñada por Google con un amplio soporte idiomático.',
+  'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Variante con sarifa de la fuente digital nativa de Google.',
+  'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: Emparejamiento complementario con sarifa para los títulos sin sarifa para el cuerpo de texto.',
+  'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: Emparejamiento complementario sin sarifa para los títulos con sarifa para el cuerpo de texto.',
+  'plugins.themes.default.option.typography.lato' => 'Lato: Fuente sin sarifa, moderna y popular.',
+  'plugins.themes.default.option.typography.lora' => 'Lora: Fuente serif de amplio espectro, buena para leer en línea',
+  'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: un emparejamiento complementario con sarifa para los títulos y sin sarifa para el cuerpo de texto.',
+  'plugins.themes.default.option.colour.label' => 'Color',
+  'plugins.themes.default.option.colour.description' => 'Escoja un color para la cabecera.',
+); ?>

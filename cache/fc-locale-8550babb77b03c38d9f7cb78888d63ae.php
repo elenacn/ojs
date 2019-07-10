@@ -1,0 +1,17 @@
+<?php return array (
+  'plugins.generic.citationStyleLanguage.displayName' => 'Lenguaje de estilos de Cita',
+  'plugins.generic.citationStyleLanguage.description' => 'Permite que los lectores obtengan una cita de un artículo publicado en uno de los formatos compatibles con CSL (Citation Style Language).',
+  'plugins.generic.citationStyleLanguage.style.acm-sig-proceedings' => 'ACM',
+  'plugins.generic.citationStyleLanguage.style.acs-nano' => 'ACS',
+  'plugins.generic.citationStyleLanguage.style.apa' => 'APA',
+  'plugins.generic.citationStyleLanguage.style.associacao-brasileira-de-normas-tecnicas' => 'ABNT',
+  'plugins.generic.citationStyleLanguage.style.chicago-author-date' => 'Chicago',
+  'plugins.generic.citationStyleLanguage.style.harvard-cite-them-right' => 'Harvard',
+  'plugins.generic.citationStyleLanguage.style.ieee' => 'IEEE',
+  'plugins.generic.citationStyleLanguage.style.modern-language-association' => 'MLA',
+  'plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography' => 'Turabian',
+  'plugins.generic.citationStyleLanguage.style.vancouver' => 'Vancouver',
+  'plugins.generic.citationStyleLanguage.download.bibtex' => 'BibTeX',
+  'plugins.generic.citationStyleLanguage.download.ris' => 'Endnote/Zotero/Mendeley (RIS)',
+  'plugins.generic.citationStyleLanguage.settings.citationDownloads' => 'Estilos descargables',
+); ?>
