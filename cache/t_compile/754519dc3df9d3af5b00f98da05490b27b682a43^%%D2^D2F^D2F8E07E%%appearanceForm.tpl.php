@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-25 17:03:47
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:52:32
          compiled from controllers/tab/settings/appearance/form/appearanceForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 12, false),array('function', 'url', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 15, false),array('function', 'csrf', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 16, false),array('function', 'fbvFormButtons', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 60, false),array('block', 'fbvFormArea', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 47, false),array('block', 'fbvFormSection', 'controllers/tab/settings/appearance/form/appearanceForm.tpl', 48, false),)), $this); ?>

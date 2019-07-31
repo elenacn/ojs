@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-20 02:38:43
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:48:56
          compiled from common/footer.tpl */ ?>
 <?php $this->assign('brandImage', "templates/images/ojs_brand.png"); ?>
 <?php $this->assign('packageKey', "common.openJournalSystems"); ?>

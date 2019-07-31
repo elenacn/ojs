@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-25 17:03:48
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-31 16:40:57
          compiled from controllers/grid/plugins/pluginGalleryGridFilter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 18, false),array('function', 'csrf', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 19, false),array('function', 'fbvElement', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 22, false),array('function', 'fbvFormButtons', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 26, false),array('block', 'fbvFormArea', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 20, false),array('block', 'fbvFormSection', 'controllers/grid/plugins/pluginGalleryGridFilter.tpl', 21, false),)), $this); ?>

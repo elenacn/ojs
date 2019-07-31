@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-20 23:37:54
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:49:08
          compiled from form/button.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'form/button.tpl', 12, false),)), $this); ?>

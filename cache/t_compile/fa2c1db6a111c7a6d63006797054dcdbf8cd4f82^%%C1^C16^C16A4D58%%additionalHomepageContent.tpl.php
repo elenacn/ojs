@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-25 17:03:47
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:52:32
          compiled from core:controllers/tab/settings/appearance/form/additionalHomepageContent.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'fbvFormSection', 'core:controllers/tab/settings/appearance/form/additionalHomepageContent.tpl', 11, false),array('function', 'fbvElement', 'core:controllers/tab/settings/appearance/form/additionalHomepageContent.tpl', 12, false),)), $this); ?>

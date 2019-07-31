@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-06-20 23:34:02
+<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:49:30
          compiled from frontend/objects/galley_link.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'frontend/objects/galley_link.tpl', 53, false),array('function', 'translate', 'frontend/objects/galley_link.tpl', 59, false),array('modifier', 'to_array', 'frontend/objects/galley_link.tpl', 53, false),array('modifier', 'escape', 'frontend/objects/galley_link.tpl', 66, false),)), $this); ?>
