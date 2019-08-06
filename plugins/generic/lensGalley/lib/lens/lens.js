@@ -1092,7 +1092,7 @@
 		a.Prototype = function() {
 			this.render = function() {
 				r.prototype.render.call(this), this.content.appendChild(i(".back-button", {
-					html: '<a href="./">'+translate.back+'</a>'
+					html: '<a class="back-button" href="./" title="Back"><img alt="" src="/ojs/public/journals/1/Favicon2.png"></a>'
 				}));
 				var t = this.node,
 					e = this.node.document.get("publication_info");

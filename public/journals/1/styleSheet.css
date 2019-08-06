@@ -249,9 +249,6 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 .content-node.heading .title, .content-node.heading .content .title .content {
 	font-family: Merriweather;
 }
-.content-node:hover {
-	color: #e26627;
-}
 .content-node.paragraph .content-node.text div {
 	font-family: Noto Sans;
 }
@@ -294,9 +291,6 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 	min-height: 20px !important;
 }
 /*--------------------------------efectos en xml-jats---------------------------------------*/
-.back-button:hover {
-	filter: grayscale(80%);
-}
 .img-jats {
 	max-height: 80px;
 	max-width: 100%;
@@ -310,6 +304,15 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 	height: 38px;
 	background: #ddd;
 	border: none;
+}
+.back-button{
+	display: block;
+	top: 0px;
+	right: 0px;
+	z-index: 1000;
+	padding: 10px;
+	color: black;
+	font-size: 13px;
 }
 /*-----------------------pie de pagina img--------------------------------*/
 @media only screen and (max-width: 812px) {
