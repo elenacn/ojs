@@ -368,3 +368,7 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 	font-size: 18px;
 	font-family: Merriweather;
 }
+/*------------------------------------color para links externos e internos--------------*/
+.linkext:hover {
+	color: #007ab2;
+}

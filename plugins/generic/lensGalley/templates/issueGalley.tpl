@@ -1,16 +1,16 @@
 {**
  * plugins/generic/lensGalley/issueGalley.tpl
  *
- * Copyright (c) 2014-2018 Simon Fraser University
- * Copyright (c) 2003-2018 John Willinsky
+ * Copyright (c) 2014-2017 Simon Fraser University
+ * Copyright (c) 2003-2017 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * Embedded viewing of a JATS XML galley.
+ * Embedded viewing of a PDF galley.
  *}
 {include file="frontend/components/header.tpl" pageTitleTranslated=$issue->getIssueSeries()|escape}
 
 <div class="page">
-	{capture assign="xmlUrl"}{url op="download" path=$issue->getBestIssueId($currentJournal)|to_array:$galley->getBestGalleyId($currentJournal) escape=false}{/capture}
+	{url|assign:"xmlUrl" op="download" path=$issue->getBestIssueId($currentJournal)|to_array:$galley->getBestGalleyId($currentJournal) escape=false}
 	{include file="$pluginTemplatePath/display.tpl" xmlUrl=$xmlUrl}
 </div>
 
