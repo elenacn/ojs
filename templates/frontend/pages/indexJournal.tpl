@@ -19,7 +19,7 @@
 {include file="frontend/components/header.tpl" pageTitleTranslated=$currentJournal->getLocalizedName()}
 
 <div class="page_index_journal">
-    <p><a href="#" title="Galería"><img src="/ojs/public/journals/1/b4n3r.gif"/></a></p>
+    <p><a href="https://revistafiguras.acatlan.unam.mx/ojs/public/journals/1/galeria01/templates/index.html" title="Galería" target="_blank"><img src="/ojs/public/journals/1/banerGaleriaActlan.gif"/></a></p>
     {* Additional Homepage Content *}
 	{if $additionalHomeContent}
 		<div class="additional_content">

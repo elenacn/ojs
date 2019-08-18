@@ -351,7 +351,6 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 }
 .texture {
 	background-image: url(/ojs/public/journals/1/fila1-header-1267x40.jpg);
-	background-size: contain;
 	border-bottom: 2px solid #666;
 	border-top: 4px solid #666;
 }
