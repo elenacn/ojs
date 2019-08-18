@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:52:32
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:34:35
          compiled from core:controllers/tab/settings/appearance/form/setup.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'core:controllers/tab/settings/appearance/form/setup.tpl', 16, false),array('modifier', 'json_encode', 'core:controllers/tab/settings/appearance/form/setup.tpl', 16, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-01 17:25:34
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 15:01:15
          compiled from frontend/pages/article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'frontend/pages/article.tpl', 17, false),array('function', 'call_hook', 'frontend/pages/article.tpl', 29, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-07-30 17:49:30
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:01:24
          compiled from frontend/components/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'call_hook', 'frontend/components/footer.tpl', 19, false),array('function', 'translate', 'frontend/components/footer.tpl', 21, false),array('function', 'url', 'frontend/components/footer.tpl', 39, false),array('function', 'load_script', 'frontend/components/footer.tpl', 63, false),array('modifier', 'assign', 'frontend/components/footer.tpl', 19, false),array('modifier', 'escape', 'frontend/components/footer.tpl', 21, false),)), $this); ?>

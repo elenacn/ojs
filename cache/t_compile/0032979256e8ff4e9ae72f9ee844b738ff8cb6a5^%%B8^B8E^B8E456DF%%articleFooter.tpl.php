@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-01 17:25:34
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 15:01:15
          compiled from file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 12, false),array('function', 'url', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 28, false),array('function', 'page_links', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 38, false),array('block', 'iterate', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 19, false),array('modifier', 'escape', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 26, false),array('modifier', 'strip_unsafe_html', 'file:/var/www/html/ojs/plugins/generic/recommendByAuthor/templates/articleFooter.tpl', 29, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-06 16:04:32
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:16:00
          compiled from core:submission/submissionMetadataFormFields.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'fbvFormSection', 'core:submission/submissionMetadataFormFields.tpl', 19, false),array('block', 'fbvFormArea', 'core:submission/submissionMetadataFormFields.tpl', 24, false),array('function', 'translate', 'core:submission/submissionMetadataFormFields.tpl', 20, false),array('function', 'fbvElement', 'core:submission/submissionMetadataFormFields.tpl', 27, false),array('function', 'call_hook', 'core:submission/submissionMetadataFormFields.tpl', 81, false),)), $this); ?>

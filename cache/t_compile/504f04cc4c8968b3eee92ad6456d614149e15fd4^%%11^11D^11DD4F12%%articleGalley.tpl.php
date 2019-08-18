@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-06 01:23:49
+<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:23:20
          compiled from file:/var/www/html/ojs/plugins/generic/lensGalley/templates//articleGalley.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'file:/var/www/html/ojs/plugins/generic/lensGalley/templates//articleGalley.tpl', 10, false),array('modifier', 'to_array', 'file:/var/www/html/ojs/plugins/generic/lensGalley/templates//articleGalley.tpl', 13, false),array('modifier', 'assign', 'file:/var/www/html/ojs/plugins/generic/lensGalley/templates//articleGalley.tpl', 13, false),array('function', 'url', 'file:/var/www/html/ojs/plugins/generic/lensGalley/templates//articleGalley.tpl', 13, false),)), $this); ?>
