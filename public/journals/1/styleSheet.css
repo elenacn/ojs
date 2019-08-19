@@ -323,7 +323,7 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 .pkp_brand_footer {
 	background-color: #000;
 	display: grid;
-	grid-template-columns: 300px 300px 300px;
+	grid-template-columns: 350px 350px 350px;
 }
 .pkp_footer_content {
 	background-color: #000;
