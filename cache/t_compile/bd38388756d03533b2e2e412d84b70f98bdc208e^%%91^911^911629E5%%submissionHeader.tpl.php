@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:34:49
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-08 23:53:19
          compiled from workflow/submissionHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'workflow/submissionHeader.tpl', 12, false),array('function', 'url', 'workflow/submissionHeader.tpl', 30, false),array('function', 'load_url_in_div', 'workflow/submissionHeader.tpl', 31, false),array('modifier', 'assign', 'workflow/submissionHeader.tpl', 30, false),)), $this); ?>

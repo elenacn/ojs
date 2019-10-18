@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:06:18
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:44:44
          compiled from controllers/grid/languages/localeNameCell.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'concat', 'controllers/grid/languages/localeNameCell.tpl', 11, false),array('modifier', 'escape', 'controllers/grid/languages/localeNameCell.tpl', 15, false),)), $this); ?>

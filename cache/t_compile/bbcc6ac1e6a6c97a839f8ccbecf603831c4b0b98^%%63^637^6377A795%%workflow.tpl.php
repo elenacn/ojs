@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 21:08:24
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 20:08:01
          compiled from management/settings/workflow.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'management/settings/workflow.tpl', 25, false),array('function', 'translate', 'management/settings/workflow.tpl', 25, false),array('function', 'call_hook', 'management/settings/workflow.tpl', 30, false),)), $this); ?>

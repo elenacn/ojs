@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 21:07:56
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 23:06:28
          compiled from controllers/tab/settings/journal/sections.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/tab/settings/journal/sections.tpl', 12, false),array('function', 'load_url_in_div', 'controllers/tab/settings/journal/sections.tpl', 13, false),array('modifier', 'assign', 'controllers/tab/settings/journal/sections.tpl', 12, false),)), $this); ?>

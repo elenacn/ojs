@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:20:55
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-08 23:56:01
          compiled from file:/var/www/html/ojs/plugins/importexport/quickSubmit/templates/submitSuccess.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'file:/var/www/html/ojs/plugins/importexport/quickSubmit/templates/submitSuccess.tpl', 16, false),array('function', 'translate', 'file:/var/www/html/ojs/plugins/importexport/quickSubmit/templates/submitSuccess.tpl', 20, false),array('function', 'plugin_url', 'file:/var/www/html/ojs/plugins/importexport/quickSubmit/templates/submitSuccess.tpl', 23, false),)), $this); ?>

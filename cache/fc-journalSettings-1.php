@@ -2,14 +2,17 @@
   'agenciesEnabledSubmission' => false,
   'agenciesEnabledWorkflow' => false,
   'agenciesRequired' => false,
-  'citationsEnabledSubmission' => false,
-  'citationsEnabledWorkflow' => false,
+  'citationsEnabledSubmission' => true,
+  'citationsEnabledWorkflow' => true,
   'citationsRequired' => false,
   'contactEmail' => 'revistafiguras@apolo.acatlan.unam.mx',
   'contactName' => 'Figūras: Revista académica de investigación',
   'contactPhone' => '',
+  'copyrightHolderType' => 'author',
+  'copyrightNoticeAgree' => false,
+  'copyrightYearBasis' => 'issue',
   'copySubmissionAckAddress' => '',
-  'copySubmissionAckPrimaryContact' => false,
+  'copySubmissionAckPrimaryContact' => true,
   'coverageEnabledSubmission' => false,
   'coverageEnabledWorkflow' => false,
   'coverageRequired' => false,
@@ -20,13 +23,15 @@
   'emailSignature' => '<br/>
 ________________________________________________________________________<br/>
 <a href="{$contextUrl}">{$contextName}</a>',
+  'enableAuthorSelfArchive' => false,
   'itemsPerPage' => 25,
   'keywordsEnabledSubmission' => true,
   'keywordsEnabledWorkflow' => true,
   'keywordsRequired' => false,
-  'languagesEnabledSubmission' => false,
-  'languagesEnabledWorkflow' => false,
+  'languagesEnabledSubmission' => true,
+  'languagesEnabledWorkflow' => true,
   'languagesRequired' => false,
+  'licenseURL' => 'http://creativecommons.org/licenses/by-nc-sa/4.0',
   'mailingAddress' => 'Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México. Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México.',
   'membershipFee' => 0,
   'navItems' => NULL,
@@ -83,6 +88,13 @@ ________________________________________________________________________<br/>
   'typeEnabledSubmission' => false,
   'typeEnabledWorkflow' => false,
   'typeRequired' => false,
+  'about' => 
+  array (
+    'en_US' => '<p><strong>Figūras: Revista académica de investigación</strong> is a triannual publication of scientific and humanistic research, edited by the Facultad de Estudios Superiores Acatlán-UNAM. It publishes, in either Spanish or English, original articles (open peer reviewed), essays and reviews on the five academic fields formed in the institution with the purposes of intensifying the sharing of academic discussion, contributing to the construction of basic and applied research, and promoting as well as disseminating its results in and out of Mexico.</p>
+<p>We recommend that you review the <strong>About</strong> page for the journal\'s section policies, as well as the <strong>Editorial criteria and procedures</strong>.</p>',
+    'es_ES' => '<p><strong>Figūras: Revista académica de investigación</strong> es una publicación cuatrimestral de investigación científica y humanística editada por la Facultad de Estudios Superiores Acatlán-UNAM que publica, en español o inglés, artículos originales (arbitrados por revisión por pares abierta), ensayos y reseñas críticas en los cinco campos de conocimiento cultivados en la entidad, con los objetivos de intensificar la participación del diálogo académico, contribuir en la con-figuración de la investigación básica y aplicada y promover y difundir sus resultados en México y en el extranjero.</p>
+<p>Se recomienda revisar el menú <strong>Nosotros</strong> para consultar las políticas de sección de la revista, así como los <strong>Criterios y procedimientos editoriales</strong>.</p>',
+  ),
   'additionalHomeContent' => 
   array (
     'en_US' => '<p><span style="font-weight: 400;"><strong>Figūras </strong>is a triannual publication of scientific and humanistic research, edited by the Facultad de Estudios Superiores Acatlán-UNAM. It publishes, in either Spanish or English, original articles, essays and reviews on the five academic fields formed in the institution with the purposes of intensifying the sharing of academic discussion, contributing to the construction of basic and applied research, and promoting as well as disseminating its results in and out of Mexico.</span></p>
@@ -92,13 +104,13 @@ ________________________________________________________________________<br/>
   ),
   'authorInformation' => 
   array (
-    'en_US' => 'Interested in submitting to this journal? We recommend that you review the <a href="http://192.168.1.185/ojs/index.php/figuras/about">About the Journal</a> page for the journal\'s section policies, as well as the <a href="http://192.168.1.185/ojs/index.php/figuras/about/submissions#authorGuidelines">Author Guidelines</a>. Authors need to <a href="http://192.168.1.185/ojs/index.php/figuras/user/register">register</a> with the journal prior to submitting or, if already registered, can simply <a href="http://192.168.1.185/ojs/index.php/index/login">log in</a> and begin the five-step process.',
-    'es_ES' => '¿Está interesado en publicar en la revista? Se recomienda revisar la página <a href="http://localhost/ojs/index.php/figuras/about">Acerca de la revista</a> para consultar las políticas de sección de la revista, así como las <a href="http://localhost/ojs/index.php/figuras/about/submissions#authorGuidelines">Directrices del autor/a</a>. Los autores/as deben <a href="http://localhost/ojs/index.php/figuras/user/register">registrarse</a> en la revista antes de publicar o, si ya están registrados, pueden simplemente <a href="http://localhost/ojs/index.php/index/login">iniciar sesión</a> y comenzar el proceso de cinco pasos.',
+    'en_US' => '<p>Interested in submitting to <strong>Figūras: Revista académica de investigación</strong>? We recommend that you review the <a href="http://192.168.1.185/ojs/index.php/figuras/about">About the Journal</a> page for the journal\'s section policies, as well as the <a href="http://192.168.1.185/ojs/index.php/figuras/about/submissions#authorGuidelines">Author Guidelines</a>. Authors need to <a href="http://192.168.1.185/ojs/index.php/figuras/user/register">register</a> with the journal prior to submitting or, if already registered, can simply <a href="http://192.168.1.185/ojs/index.php/index/login">log in</a> and begin the five-step process.</p>',
+    'es_ES' => '<p>¿Está interesado en publicar en <strong>Figūras: Revista académica de investigación</strong>? Se recomienda revisar la página <a href="http://localhost/ojs/index.php/figuras/about">Acerca de la revista</a> para consultar las políticas de sección de la revista, así como las <a href="http://localhost/ojs/index.php/figuras/about/submissions#authorGuidelines">Directrices del autor/a</a>. Los autores/as deben <a href="http://localhost/ojs/index.php/figuras/user/register">registrarse</a> en la revista antes de publicar o, si ya están registrados, pueden simplemente <a href="http://localhost/ojs/index.php/index/login">iniciar sesión</a> y comenzar el proceso de cinco pasos.</p>',
   ),
   'authorSelfArchivePolicy' => 
   array (
-    'en_US' => 'This journal permits and encourages authors to post items submitted to the journal on personal websites or institutional repositories both prior to and after publication, while providing bibliographic details that credit, if applicable, its publication in this journal.',
-    'es_ES' => 'Esta revista permite y anima a los autores/as a publicar artículos enviados a la revista en sus sitios web personales o en depósitos institucionales, tanto antes como después de su publicación en esta revista, siempre y cuando proporcionen información bibliográfica que acredite, si procede, su publicación en ella.',
+    'en_US' => '<p>This journal permits and encourages authors to post items submitted to the journal on personal websites or institutional repositories both prior to and after publication, while providing bibliographic details that credit, if applicable, its publication in this journal.</p>',
+    'es_ES' => '<p>Esta revista permite y anima a los autores/as a publicar artículos enviados a la revista en sus sitios web personales o en depósitos institucionales, tanto antes como después de su publicación en esta revista, siempre y cuando proporcionen información bibliográfica que acredite, si procede, su publicación en ella.</p>',
   ),
   'clockssLicense' => 
   array (
@@ -159,6 +171,11 @@ Please follow the following protocol for making electronic revisions to your man
     'es_ES' => 'La fase de corrección tiene el propósito de mejorar la fluidez, claridad, gramática, vocabulario y formato del artículo. Supone la última oportunidad para el autor/a de realizar cualquier cambio importante en el texto, puesto que la siguiente fase se limita a las correcciones tipográficas y de formato. El archivo para corregir se encuentra en formato Word o .rtf y, por lo tanto, puede editarse fácilmente como un documento de procesador de textos. Las instrucciones expuestas aquí plantean dos enfoques de corrección. La primera está basada en la función Control de cambios de Microsoft Word y requiere que tanto el corrector/a como el editor/a y el autor/a tengan acceso a este programa. La segunda propuesta, que no depende de un software concreto, se tomó prestada, con el debido permiso, de la Harvard Educational Review. El editor/a de la revista tiene la posibilidad de modificar estas instrucciones, por lo que pueden hacerse sugerencias con el fin de mejorar el proceso de la revista. <h4>Sistemas de corrección</h4> <strong>1. Control de cambios de Microsoft Word</strong> Situado en el menú Herramientas en la barra de menús, la función Control de cambios permite al corrector/a insertar (el texto aparece en color) y suprimir contenido (el texto aparece tachado en color o al margen como eliminado). El corrector/a puede incluir consultas tanto al autor/a (Consultas al autor/a) como al editor/a (Consultas al editor/a) escribiéndolas entre corchetes. Una vez cargada la versión corregida, se le notifica al editor/a. El editor/a revisa entonces el texto y lo notifica al autor/a. El editor/a y el autor/a deben dejar los cambios que consideren pertinentes. Si es necesario realizar más cambios, el editor/a y el autor/a pueden realizarlos en las inserciones o supresiones iniciales, así como realizar nuevas inserciones o supresiones en cualquier parte del texto. Los autores/as y editores/as deben responder a cada una de las consultas recibidas, con respuestas incluidas entre los corchetes. Una vez que el editor/a y el autor/a hayan revisado el texto, el corrector realizará un repaso final del texto y aceptará los cambios como preparación para la fase de maquetación y de galerada. <strong>2. Harvard Educational Review </strong> <strong>Instrucciones para realizar revisiones electrónicas en el manuscrito</strong> Siga el siguiente protocolo para realizar revisiones electrónicas en su manuscrito: <strong>Responder a cambios sugeridos.</strong> &nbsp; Para cada cambio sugerido que acepte, elimine la negrita del texto. &nbsp; Para cada cambio sugerido que no acepte, vuelva a introducir el texto original y resáltelo en <strong>negrita</strong>. <strong>Realizar inserciones y supresiones.</strong> &nbsp; Indique las inserciones resaltando el texto nuevo en <strong>negrita</strong>. &nbsp; Reemplace las secciones eliminadas con <strong>[texto eliminado]</strong>. &nbsp; Si elimina una o más oraciones, indíquelo con una nota, p. ej., <strong>[2 oraciones eliminadas]</strong>. <strong>Responder a consultas al autor (QAs).</strong> &nbsp; Mantenga todas las consultas al autor intactas y en negrita dentro del texto. No las elimine. &nbsp; Para responder a una consulta al autor, añada un comentario tras ella. Los comentarios deben delimitarse con: <strong>[Comentario:]</strong> &nbsp; p. ej., <strong>[Comentario: Discusión de la metodología ampliada como se sugirió]</strong>. <strong>Realizar comentarios.</strong> &nbsp; Utilice comentarios para explicar cambios en la organización o revisiones graves &nbsp; p. ej., <strong>[Comentario: El párrafo anterior se ha movido de la pág. 5 a la pág. 7].</strong> &nbsp; Nota: Si hace referencia a números de página, utilice los números de página de la versión impresa del manuscrito que se le envió. Este punto es importante puesto que los números de página pueden cambiar si el documento se revisa de manera electrónica. <h4>Ejemplo de una revisión electrónica</h4> <ol> <li><strong>Corrección inici
 al.</strong> El corrector/a de la revista editará el texto para mejorar la fluidez, claridad, gramática, vocabulario y formato del artículo, así como para incluir consultas al autor si es necesario. Una vez que la edición inicial se haya completado, el corrector/a cargará el documento revisado a través del sitio web de la revista y notificará al autor/a que el manuscrito editado está disponible para revisión.</li> <li><strong>Corrección del autor/a.</strong> Antes de realizar cambios radicales en la estructura y organización del manuscrito editado, los autores/as deben comprobarlos con los editores/as que codirigen la pieza. Los autores/as deben aceptar/rechazar cualquier cambio realizado durante la corrección inicial, según convenga, y responder a todas las consultas. Cuando se finalicen las revisiones, los autores/as deben cambiar el nombre del archivo de NombreAutorQA.doc a NombreAutorQAR.doc (p. ej., de LeeQA.doc a LeeQAR.doc) y cargar el documento revisado a través del sitio web de la revista siguiendo las instrucciones.</li> <li><strong>Corrección final.</strong> El corrector/a de la revista comprobará los cambios realizados por el autor/a e incorporará las respuestas a las consultas al autor para crear un manuscrito final. Cuando termine, el corrector/a cargará el documento final a través del sitio web de la revista y enviará una alerta al maquetista para completar el formateado.</li> </ol>',
   ),
+  'copyrightNotice' => 
+  array (
+    'en_US' => '<p>All works published in <strong>Figūras</strong>: <strong>Revista académica de investigación </strong>are subject to an <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> license. Authors are owners of their articles and can republish them in other media, provided that they communicate it to the editors and indicate the texts were originally published in <strong>Figūras</strong>: <strong>Revista académica de investigación</strong>.</p>',
+    'es_ES' => '<p><span style="color: rgba(0,0,0,0.87); font-family: \'Noto Sans\',-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Oxygen-Sans,Ubuntu,Cantarell,\'Helvetica Neue\',sans-serif; font-size: 13px; text-align: justify;">Todos los trabajos publicados en la revista <span style="font-weight: 400;"><strong>Figūras</strong></span>: <strong>Revista académica de investigación </strong></span><span style="color: rgba(0,0,0,0.87); font-family: \'Noto Sans\',-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Oxygen-Sans,Ubuntu,Cantarell,\'Helvetica Neue\',sans-serif; font-size: 13px; text-align: justify;">están sujetos a una</span> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.<span style="color: rgba(0,0,0,0.87); font-family: \'Noto Sans\',-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Oxygen-Sans,Ubuntu,Cantarell,\'Helvetica Neue\',sans-serif; font-size: 13px; text-align: justify;"> Los autores continúan como propietarios de sus textos y pueden volver a publicar sus artículos en otro medio, siempre y cuando lo comuniquen a los editores e indiquen que fueron publicados originariamente en </span><span style="color: rgba(0,0,0,0.87); font-family: \'Noto Sans\',-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Oxygen-Sans,Ubuntu,Cantarell,\'Helvetica Neue\',sans-serif; font-size: 13px; text-align: justify;"><span style="font-weight: 400;"><strong>Figūras</strong></span>: <strong>Revista académica de investigación</strong></span><span style="color: rgba(0,0,0,0.87); font-family: \'Noto Sans\',-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Oxygen-Sans,Ubuntu,Cantarell,\'Helvetica Neue\',sans-serif; font-size: 13px; text-align: justify;">.</span>&nbsp;&nbsp;</p>',
+  ),
   'description' => 
   array (
     'en_US' => '<div class="page_index_journal">&nbsp;</div>',
@@ -168,8 +185,8 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
   ),
   'librarianInformation' => 
   array (
-    'en_US' => 'We encourage research librarians to list this journal among their library\'s electronic journal holdings. As well, it may be worth noting that this journal\'s open source publishing system is suitable for libraries to host for their faculty members to use with journals they are involved in editing (see <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).',
-    'es_ES' => 'Se recomienda a los investigadores/as bibliotecarios/as que incluyan esta revista en su listado de revistas electrónicas. Asimismo, cabría destacar que el sistema de publicación de código abierto de esta revista es apto para bibliotecas con personal docente que desee editar sus propias revistas (ver <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).',
+    'en_US' => '<p>We encourage research librarians to list <strong>Figūras: Revista académica de investigación</strong> among their library\'s electronic journal holdings. As well, it may be worth noting that this journal\'s open source publishing system is suitable for libraries to host for their faculty members to use with journals they are involved in editing (see <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).</p>',
+    'es_ES' => '<p>Se recomienda a los investigadores/as bibliotecarios/as que incluyan la <strong>Figūras: Revista académica de investigación</strong> en su listado de revistas electrónicas. Asimismo, cabría destacar que el sistema de publicación de código abierto de esta revista es apto para bibliotecas con personal docente que desee editar sus propias revistas (ver <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).</p>',
   ),
   'lockssLicense' => 
   array (
@@ -188,24 +205,24 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
   ),
   'pageFooter' => 
   array (
-    'en_US' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos ortogados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: 23 de enero de 2019.</p>
+    'en_US' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos otorgados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: 01 de octubre de 2019.</p>
 <div class="pkp_brand_footer" role="complementary">
 <div class="pkp_brand_footer1" role="complementary"><a href="https://www.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoUNAM-blanco-F-50px.png"> </a> <a href="https://www.acatlan.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoFESAcompleto-blanco-45px.png"> </a></div>
-<div class="pkp_brand_footer2" role="complementary"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="license noopener"> <img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Licencia Creative Commons"> </a> <a href="#" target="_blank" rel="noopener"> <img src="/ojs/templates/images/OpenAccess.png"> </a></div>
+<div class="pkp_brand_footer2" role="complementary"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licencia Creative Commons"></a><a href="https://www.publicaciones.unam.mx/Normatividad.html#bloque-ii" target="_blank" rel="noopener"> <img src="/ojs/templates/images/OpenAccess.png"> </a></div>
 <div class="pkp_brand_footer3" role="complementary"><a href="https://es-la.facebook.com/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-facebook.png"> </a> <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-twitter.png"> </a> <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-instagram.png"> </a></div>
 </div>
 <p>El contenido de los textos es responsabilidad de los autores y no refleja forzosamente el punto de vista de los dictaminadores o de los miembros del comité editorial de la revista, de la Facultad de Estudios Superiores Acatlán ni de la Universidad Nacional Autónoma de México. Se autoriza la reproducción de los artículos a reserva de citar la fuente exacta y de respetar los derechos de autor.</p>',
-    'es_ES' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos ortogados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: 23 de enero de 2019.</p>
+    'es_ES' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos otorgados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: 01 de octubre de 2019.</p>
 <div class="pkp_brand_footer" role="complementary">
 <div class="pkp_brand_footer1" role="complementary"><a href="https://www.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoUNAM-blanco-F-50px.png"> </a> <a href="https://www.acatlan.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoFESAcompleto-blanco-45px.png"> </a></div>
-<div class="pkp_brand_footer2" role="complementary"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_&quot;blank&quot;" rel="license"> <img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Licencia Creative Commons"> </a> <a href="#" target="_blank" rel="noopener"> <img src="/ojs/templates/images/OpenAccess.png"> </a></div>
+<div class="pkp_brand_footer2" role="complementary"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licencia Creative Commons"></a><a href="https://www.publicaciones.unam.mx/Normatividad.html#bloque-ii" target="_blank" rel="noopener"> <img src="/ojs/templates/images/OpenAccess.png"> </a></div>
 <div class="pkp_brand_footer3" role="complementary"><a href="https://es-la.facebook.com/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-facebook.png"> </a> <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-twitter.png"> </a> <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-instagram.png"> </a></div>
 </div>
 <p>El contenido de los textos es responsabilidad de los autores y no refleja forzosamente el punto de vista de los dictaminadores o de los miembros del comité editorial de la revista, de la Facultad de Estudios Superiores Acatlán ni de la Universidad Nacional Autónoma de México. Se autoriza la reproducción de los artículos a reserva de citar la fuente exacta y de respetar los derechos de autor.</p>',
   ),
   'privacyStatement' => 
   array (
-    'en_US' => 'The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.',
+    'en_US' => '<p>The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.</p>',
     'es_ES' => '<p>Los nombres y las direcciones de correo electrónico introducidos en esta revista se usarán exclusivamente para los fines establecidos en ella y no se proporcionarán a terceros o para su uso con otros fines.</p>',
   ),
   'proofInstructions' => 
@@ -239,8 +256,8 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
   ),
   'readerInformation' => 
   array (
-    'en_US' => 'We encourage readers to sign up for the publishing notification service for this journal. Use the <a href="http://192.168.1.185/ojs/index.php/figuras/user/register">Register</a> link at the top of the home page for the journal. This registration will result in the reader receiving the Table of Contents by email for each new issue of the journal. This list also allows the journal to claim a certain level of support or readership. See the journal\'s <a href="http://192.168.1.185/ojs/index.php/figuras/about/submissions#privacyStatement">Privacy Statement</a>, which assures readers that their name and email address will not be used for other purposes.',
-    'es_ES' => 'Animamos a los lectores/as a registrarse en el servicio de notificación de publicaciones de la revista. Utilice el enlace <a href="http://localhost/ojs/index.php/figuras/user/register">Registro</a> de la parte superior de la página de inicio de la revista. Como resultado del registro, el lector/a recibirá por correo electrónico la Tabla de contenidos de cada número de la revista. Esta lista también permite que se le atribuya a la revista un cierto nivel de apoyo o número de lectores/as. Consulte la <a href="http://localhost/ojs/index.php/figuras/about/submissions#privacyStatement">Declaración de privacidad</a> de la revista, que garantiza a los lectores/as que sus nombres y direcciones de correo electrónico no se usarán con otros fines.',
+    'en_US' => '<p>We encourage readers to sign up for the publishing notification service for this journal. Use the <a href="http://192.168.1.185/ojs/index.php/figuras/user/register">Register</a> link at the top of the home page for the journal. This registration will result in the reader receiving the Table of Contents by email for each new issue of the journal. This list also allows the journal to claim a certain level of support or readership. See the journal\'s <a href="http://192.168.1.185/ojs/index.php/figuras/about/submissions#privacyStatement">Privacy Statement</a>, which assures readers that their name and email address will not be used for other purposes.</p>',
+    'es_ES' => '<p>Animamos a los lectores/as a registrarse en el servicio de notificación de publicaciones de la revista. Utilice el enlace <a href="http://localhost/ojs/index.php/figuras/user/register">Registro</a> de la parte superior de la página de inicio de la revista. Como resultado del registro, el lector/a recibirá por correo electrónico la Tabla de contenidos de cada número de la revista. Esta lista también permite que se le atribuya a la revista un cierto nivel de apoyo o número de lectores/as. Consulte la <a href="http://localhost/ojs/index.php/figuras/about/submissions#privacyStatement">Declaración de privacidad</a> de la revista, que garantiza a los lectores/as que sus nombres y direcciones de correo electrónico no se usarán con otros fines.</p>',
   ),
   'refLinkInstructions' => 
   array (
@@ -289,8 +306,8 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
       ),
       3 => 
       array (
-        'content' => 'The text is single-spaced; uses a 12-point font; employs italics, rather than underlining (except with URL addresses); and all illustrations, figures, and tables are placed within the text at the appropriate points, rather than at the end.',
-        'order' => '4',
+        'content' => 'The text is double-spaced; uses a 12-point Arial font; employs italics, rather than underlining (except with URL addresses); and all illustrations, figures, and tables are placed within the text at the appropriate points, rather than at the end.',
+        'order' => 6,
       ),
       4 => 
       array (
@@ -317,8 +334,8 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
       ),
       3 => 
       array (
-        'content' => 'El texto tiene interlineado sencillo; 12 puntos de tamaño de fuente; se utiliza cursiva en lugar de subrayado (excepto en las direcciones URL); y todas las ilustraciones, figuras y tablas se encuentran colocadas en los lugares del texto apropiados, en vez de al final.',
-        'order' => '4',
+        'content' => 'El texto tiene interlineado doble; 12 puntos de tamaño de fuente Arial; se utiliza cursiva en lugar de subrayado (excepto en las direcciones URL); y todas las ilustraciones, figuras y tablas se encuentran colocadas en los lugares del texto apropiados, en vez de al final.',
+        'order' => 6,
       ),
       4 => 
       array (

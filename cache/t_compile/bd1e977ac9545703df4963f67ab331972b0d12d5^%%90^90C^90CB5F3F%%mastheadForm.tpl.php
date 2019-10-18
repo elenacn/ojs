@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 21:07:04
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:45:53
          compiled from controllers/tab/settings/masthead/form/mastheadForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 13, false),array('function', 'url', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 22, false),array('function', 'csrf', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 23, false),array('function', 'fbvElement', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 31, false),array('function', 'fbvFormButtons', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 69, false),array('block', 'fbvFormArea', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 29, false),array('block', 'fbvFormSection', 'controllers/tab/settings/masthead/form/mastheadForm.tpl', 30, false),)), $this); ?>

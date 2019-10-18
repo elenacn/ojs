@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:03:54
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:14
          compiled from controllers/tab/settings/permissions/form/permissionSettingsForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'fbvFormSection', 'controllers/tab/settings/permissions/form/permissionSettingsForm.tpl', 13, false),array('function', 'fbvElement', 'controllers/tab/settings/permissions/form/permissionSettingsForm.tpl', 14, false),array('modifier', 'compare', 'controllers/tab/settings/permissions/form/permissionSettingsForm.tpl', 14, false),)), $this); ?>

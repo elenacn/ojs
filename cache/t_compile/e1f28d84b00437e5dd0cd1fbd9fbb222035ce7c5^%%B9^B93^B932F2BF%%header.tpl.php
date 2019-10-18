@@ -1,10 +1,20 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:09:51
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 17:17:37
          compiled from frontend/components/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'frontend/components/header.tpl', 23, false),array('modifier', 'assign', 'frontend/components/header.tpl', 24, false),array('modifier', 'escape', 'frontend/components/header.tpl', 26, false),array('modifier', 'default', 'frontend/components/header.tpl', 26, false),array('function', 'translate', 'frontend/components/header.tpl', 24, false),array('function', 'url', 'frontend/components/header.tpl', 47, false),array('function', 'load_menu', 'frontend/components/header.tpl', 86, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'frontend/components/header.tpl', 33, false),array('modifier', 'assign', 'frontend/components/header.tpl', 34, false),array('modifier', 'escape', 'frontend/components/header.tpl', 44, false),array('modifier', 'default', 'frontend/components/header.tpl', 44, false),array('function', 'translate', 'frontend/components/header.tpl', 34, false),array('function', 'url', 'frontend/components/header.tpl', 65, false),array('function', 'load_menu', 'frontend/components/header.tpl', 104, false),)), $this); ?>
 <?php echo ''; ?><?php echo ''; ?><?php $this->assign('showingLogo', true); ?><?php echo ''; ?><?php if ($this->_tpl_vars['displayPageHeaderTitle'] && ! $this->_tpl_vars['displayPageHeaderLogo'] && is_string ( $this->_tpl_vars['displayPageHeaderTitle'] )): ?><?php echo ''; ?><?php $this->assign('showingLogo', false); ?><?php echo ''; ?><?php endif; ?><?php echo ''; ?>
 
 <!DOCTYPE html>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <html lang="<?php echo ((is_array($_tmp=$this->_tpl_vars['currentLocale'])) ? $this->_run_mod_handler('replace', true, $_tmp, '_', "-") : smarty_modifier_replace($_tmp, '_', "-")); ?>
 " xml:lang="<?php echo ((is_array($_tmp=$this->_tpl_vars['currentLocale'])) ? $this->_run_mod_handler('replace', true, $_tmp, '_', "-") : smarty_modifier_replace($_tmp, '_', "-")); ?>
@@ -16,6 +26,14 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "frontend/components/h
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
 <body class="pkp_page_<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['requestedPage'])) ? $this->_run_mod_handler('escape', true, $_tmp) : $this->_plugins['modifier']['escape'][0][0]->smartyEscape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, 'index') : smarty_modifier_default($_tmp, 'index')); ?>
  pkp_op_<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['requestedOp'])) ? $this->_run_mod_handler('escape', true, $_tmp) : $this->_plugins['modifier']['escape'][0][0]->smartyEscape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, 'index') : smarty_modifier_default($_tmp, 'index')); ?>
 <?php if ($this->_tpl_vars['showingLogo']): ?> has_site_logo<?php endif; ?>" dir="<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['currentLocaleLangDir'])) ? $this->_run_mod_handler('escape', true, $_tmp) : $this->_plugins['modifier']['escape'][0][0]->smartyEscape($_tmp)))) ? $this->_run_mod_handler('default', true, $_tmp, 'ltr') : smarty_modifier_default($_tmp, 'ltr')); ?>
@@ -100,7 +118,7 @@ unset($_smarty_tpl_vars);
                     <div class="issn"><p id="issn">ISSN en trámite</div>
                     
 								<?php if ($this->_tpl_vars['currentContext']): ?>
-					<nav class="pkp_navigation_primary_row" aria-label="<?php echo ((is_array($_tmp=$this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "common.navigation.site"), $this))) ? $this->_run_mod_handler('escape', true, $_tmp) : $this->_plugins['modifier']['escape'][0][0]->smartyEscape($_tmp));?>
+					<nav class="pkp_navigation_primary_row scrolling-navbar fixed-top" aria-label="<?php echo ((is_array($_tmp=$this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "common.navigation.site"), $this))) ? $this->_run_mod_handler('escape', true, $_tmp) : $this->_plugins['modifier']['escape'][0][0]->smartyEscape($_tmp));?>
 ">
 						<div class="pkp_navigation_primary_wrapper">
 														<?php echo $this->_plugins['function']['load_menu'][0][0]->smartyLoadNavigationMenuArea(array('name' => 'primary','id' => 'navigationPrimary','ulClass' => 'pkp_navigation_primary'), $this);?>
@@ -132,4 +150,5 @@ unset($_smarty_tpl_vars);
 
 
         <!--icondown-->
-            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up"></span>
+            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up">
+			</span>

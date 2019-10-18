@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 02:31:28
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 17:39:12
          compiled from frontend/objects/issue_summary.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'frontend/objects/issue_summary.tpl', 21, false),array('modifier', 'escape', 'frontend/objects/issue_summary.tpl', 22, false),array('modifier', 'strip_unsafe_html', 'frontend/objects/issue_summary.tpl', 40, false),)), $this); ?>

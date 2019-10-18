@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 02:31:28
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 17:39:12
          compiled from frontend/components/pagination.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'frontend/components/pagination.tpl', 18, false),array('modifier', 'escape', 'frontend/components/pagination.tpl', 18, false),)), $this); ?>

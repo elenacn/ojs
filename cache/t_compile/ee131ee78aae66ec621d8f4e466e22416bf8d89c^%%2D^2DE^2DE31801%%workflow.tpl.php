@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:34:48
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-08 23:53:19
          compiled from workflow/workflow.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'strip_unsafe_html', 'workflow/workflow.tpl', 16, false),array('modifier', 'concat', 'workflow/workflow.tpl', 18, false),array('modifier', 'assign', 'workflow/workflow.tpl', 36, false),array('function', 'url', 'workflow/workflow.tpl', 36, false),array('function', 'load_url_in_div', 'workflow/workflow.tpl', 37, false),)), $this); ?>

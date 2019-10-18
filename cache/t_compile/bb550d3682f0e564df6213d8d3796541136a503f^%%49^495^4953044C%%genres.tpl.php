@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 21:08:25
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 20:08:02
          compiled from controllers/tab/settings/genres.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/tab/settings/genres.tpl', 13, false),array('function', 'url', 'controllers/tab/settings/genres.tpl', 16, false),array('function', 'load_url_in_div', 'controllers/tab/settings/genres.tpl', 17, false),array('modifier', 'assign', 'controllers/tab/settings/genres.tpl', 16, false),)), $this); ?>

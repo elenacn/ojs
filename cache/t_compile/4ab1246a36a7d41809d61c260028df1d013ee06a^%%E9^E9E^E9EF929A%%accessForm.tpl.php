@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:03:38
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-18 15:58:59
          compiled from controllers/tab/settings/access/form/accessForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/tab/settings/access/form/accessForm.tpl', 19, false),array('function', 'csrf', 'controllers/tab/settings/access/form/accessForm.tpl', 20, false),array('function', 'translate', 'controllers/tab/settings/access/form/accessForm.tpl', 24, false),array('function', 'fbvElement', 'controllers/tab/settings/access/form/accessForm.tpl', 26, false),array('function', 'fbvFormButtons', 'controllers/tab/settings/access/form/accessForm.tpl', 32, false),array('block', 'fbvFormArea', 'controllers/tab/settings/access/form/accessForm.tpl', 23, false),array('block', 'fbvFormSection', 'controllers/tab/settings/access/form/accessForm.tpl', 25, false),array('modifier', 'compare', 'controllers/tab/settings/access/form/accessForm.tpl', 26, false),)), $this); ?>

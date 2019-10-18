@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:34:20
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 16:35:06
          compiled from controllers/tab/pubIds/form/publicIdentifiersForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 9, false),array('function', 'url', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 22, false),array('function', 'csrf', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 39, false),array('function', 'fbvElement', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 43, false),array('function', 'call_hook', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 51, false),array('function', 'fbvFormButtons', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 52, false),array('modifier', 'escape', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 24, false),array('block', 'fbvFormSection', 'controllers/tab/pubIds/form/publicIdentifiersForm.tpl', 42, false),)), $this); ?>

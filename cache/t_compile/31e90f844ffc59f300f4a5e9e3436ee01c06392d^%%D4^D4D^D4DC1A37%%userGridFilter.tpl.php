@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:00:22
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 23:09:39
          compiled from controllers/grid/settings/user/userGridFilter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'concat', 'controllers/grid/settings/user/userGridFilter.tpl', 19, false),array('modifier', 'escape', 'controllers/grid/settings/user/userGridFilter.tpl', 32, false),array('function', 'url', 'controllers/grid/settings/user/userGridFilter.tpl', 29, false),array('function', 'csrf', 'controllers/grid/settings/user/userGridFilter.tpl', 30, false),array('function', 'fbvElement', 'controllers/grid/settings/user/userGridFilter.tpl', 36, false),array('function', 'fbvFormButtons', 'controllers/grid/settings/user/userGridFilter.tpl', 44, false),array('block', 'fbvFormArea', 'controllers/grid/settings/user/userGridFilter.tpl', 34, false),array('block', 'fbvFormSection', 'controllers/grid/settings/user/userGridFilter.tpl', 35, false),)), $this); ?>

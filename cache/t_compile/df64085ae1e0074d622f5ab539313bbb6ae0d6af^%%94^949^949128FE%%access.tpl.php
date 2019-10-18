@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:00:20
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:38:45
          compiled from management/settings/access.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'management/settings/access.tpl', 24, false),array('function', 'translate', 'management/settings/access.tpl', 24, false),array('function', 'call_hook', 'management/settings/access.tpl', 29, false),)), $this); ?>

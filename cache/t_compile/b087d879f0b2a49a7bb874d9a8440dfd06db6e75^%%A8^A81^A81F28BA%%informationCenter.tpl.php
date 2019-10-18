@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:47:36
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:28:54
          compiled from controllers/informationCenter/informationCenter.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'controllers/informationCenter/informationCenter.tpl', 16, false),array('function', 'url', 'controllers/informationCenter/informationCenter.tpl', 25, false),array('function', 'translate', 'controllers/informationCenter/informationCenter.tpl', 25, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:23:20
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 21:51:52
          compiled from file:/var/www/html/ojs/plugins/generic/lensGalley/templates//display.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'file:/var/www/html/ojs/plugins/generic/lensGalley/templates//display.tpl', 17, false),)), $this); ?>

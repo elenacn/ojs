@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:47:46
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:29:04
          compiled from controllers/informationCenter/newNoteForm.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'json_encode', 'controllers/informationCenter/newNoteForm.tpl', 17, false),array('function', 'url', 'controllers/informationCenter/newNoteForm.tpl', 24, false),array('function', 'csrf', 'controllers/informationCenter/newNoteForm.tpl', 25, false),array('function', 'fbvElement', 'controllers/informationCenter/newNoteForm.tpl', 27, false),array('function', 'fbvFormButtons', 'controllers/informationCenter/newNoteForm.tpl', 29, false),array('block', 'fbvFormSection', 'controllers/informationCenter/newNoteForm.tpl', 26, false),)), $this); ?>

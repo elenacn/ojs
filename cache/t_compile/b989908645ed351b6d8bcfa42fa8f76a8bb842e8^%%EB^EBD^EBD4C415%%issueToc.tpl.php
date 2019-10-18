@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 21:29:19
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 16:34:28
          compiled from controllers/grid/issues/issueToc.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/grid/issues/issueToc.tpl', 10, false),array('function', 'url', 'controllers/grid/issues/issueToc.tpl', 18, false),array('function', 'load_url_in_div', 'controllers/grid/issues/issueToc.tpl', 19, false),array('modifier', 'assign', 'controllers/grid/issues/issueToc.tpl', 18, false),)), $this); ?>

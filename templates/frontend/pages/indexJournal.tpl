@@ -19,7 +19,7 @@
 {include file="frontend/components/header.tpl" pageTitleTranslated=$currentJournal->getLocalizedName()}
 
 <div class="page_index_journal">
-    <p><a href="https://revistafiguras.acatlan.unam.mx/ojs/public/journals/1/galeria01/templates/indexGallery.html" title="Galería" target="_blank"><img src="/ojs/public/journals/1/bannerActlan.gif"/></a></p>
+    <p><a href="https://revistafiguras.acatlan.unam.mx/ojs/public/journals/1/galeria01/templates/indexGallery.html" title="Galería" target="_blank"><img src="/ojs/public/journals/1/bannerAcatlan.gif"/></a></p>
     {* Additional Homepage Content *}
 	{if $additionalHomeContent}
 		<div class="additional_content">
@@ -83,9 +83,7 @@
 
 	<!--aqui yace additional content-->
 
-    <section class="transparent">
-     <!--  <div class="transparent_side"><p>Figūras: Revista académica de investigación evoca la acción de transformar.</p></div>-->
-    </section>
+    <section class="transparent"></section>
 
 </div><!-- .page -->
 

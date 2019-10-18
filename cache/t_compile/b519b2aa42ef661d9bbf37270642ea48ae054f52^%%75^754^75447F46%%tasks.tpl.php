@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:34:31
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:05
          compiled from controllers/page/tasks.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'json_encode', 'controllers/page/tasks.tpl', 22, false),array('modifier', 'assign', 'controllers/page/tasks.tpl', 36, false),array('function', 'url', 'controllers/page/tasks.tpl', 23, false),array('function', 'translate', 'controllers/page/tasks.tpl', 30, false),array('function', 'load_url_in_div', 'controllers/page/tasks.tpl', 37, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:01:24
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 16:51:11
          compiled from frontend/objects/issue_toc.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'frontend/objects/issue_toc.tpl', 32, false),array('function', 'translate', 'frontend/objects/issue_toc.tpl', 69, false),array('modifier', 'escape', 'frontend/objects/issue_toc.tpl', 33, false),array('modifier', 'strip_unsafe_html', 'frontend/objects/issue_toc.tpl', 40, false),array('modifier', 'date_format', 'frontend/objects/issue_toc.tpl', 79, false),)), $this); ?>

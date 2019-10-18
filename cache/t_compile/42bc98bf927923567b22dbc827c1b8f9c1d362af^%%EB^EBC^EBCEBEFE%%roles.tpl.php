@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:00:31
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:38:46
          compiled from core:controllers/tab/settings/roles.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'core:controllers/tab/settings/roles.tpl', 12, false),array('function', 'url', 'core:controllers/tab/settings/roles.tpl', 15, false),array('function', 'load_url_in_div', 'core:controllers/tab/settings/roles.tpl', 16, false),array('modifier', 'assign', 'core:controllers/tab/settings/roles.tpl', 15, false),)), $this); ?>

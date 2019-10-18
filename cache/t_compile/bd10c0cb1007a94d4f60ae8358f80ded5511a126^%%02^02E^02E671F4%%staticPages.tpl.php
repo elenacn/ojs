@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 22:59:38
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:45:26
          compiled from plugins/plugins/generic/staticPages/generic/staticPages:templates/staticPages.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'plugins/plugins/generic/staticPages/generic/staticPages:templates/staticPages.tpl', 10, false),array('function', 'load_url_in_div', 'plugins/plugins/generic/staticPages/generic/staticPages:templates/staticPages.tpl', 11, false),)), $this); ?>

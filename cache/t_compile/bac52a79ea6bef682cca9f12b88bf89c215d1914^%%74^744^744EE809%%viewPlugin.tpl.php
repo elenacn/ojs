@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 15:12:36
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 20:38:38
          compiled from controllers/grid/plugins/viewPlugin.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'controllers/grid/plugins/viewPlugin.tpl', 17, false),array('modifier', 'date_format', 'controllers/grid/plugins/viewPlugin.tpl', 48, false),array('modifier', 'strip_unsafe_html', 'controllers/grid/plugins/viewPlugin.tpl', 51, false),array('function', 'translate', 'controllers/grid/plugins/viewPlugin.tpl', 19, false),)), $this); ?>

@@ -107,4 +107,5 @@
 
 
         <!--icondown-->
-            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up"></span>
+            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up">
+			</span>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:16:33
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-08 23:47:12
          compiled from common/userDetails.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'fbvFormArea', 'common/userDetails.tpl', 28, false),array('block', 'fbvFormSection', 'common/userDetails.tpl', 29, false),array('function', 'fbvElement', 'common/userDetails.tpl', 30, false),array('function', 'translate', 'common/userDetails.tpl', 36, false),array('function', 'call_hook', 'common/userDetails.tpl', 110, false),array('modifier', 'escape', 'common/userDetails.tpl', 43, false),)), $this); ?>

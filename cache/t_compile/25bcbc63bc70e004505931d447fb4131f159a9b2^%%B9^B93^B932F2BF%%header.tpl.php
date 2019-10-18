@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:23:56
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 18:04:19
          compiled from frontend/components/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'frontend/components/header.tpl', 23, false),array('modifier', 'assign', 'frontend/components/header.tpl', 24, false),array('modifier', 'escape', 'frontend/components/header.tpl', 26, false),array('modifier', 'default', 'frontend/components/header.tpl', 26, false),array('function', 'translate', 'frontend/components/header.tpl', 24, false),array('function', 'url', 'frontend/components/header.tpl', 47, false),array('function', 'load_menu', 'frontend/components/header.tpl', 86, false),)), $this); ?>
@@ -132,4 +132,5 @@ unset($_smarty_tpl_vars);
 
 
         <!--icondown-->
-            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up"></span>
+            <span style="display: none;  bottom: 20px; right: 20px; cursor: pointer; position: fixed; color: #fff !important; font-size: 14px; border-radius: 100%; width: 40px; height: 40px; background: rgba(0,0,0,.3)!important; border: none; z-index: 100; min-height: 40px; line-height: 38px; text-align: center; outline: none; text-decoration: none; text-decoration-line: none; outline-color: transparent" class="ir-arriba fa fa-angle-up">
+			</span>

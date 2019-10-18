@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-18 23:06:18
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:44:44
          compiled from controllers/tab/settings/languages/languages.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'help', 'controllers/tab/settings/languages/languages.tpl', 12, false),array('function', 'url', 'controllers/tab/settings/languages/languages.tpl', 15, false),array('function', 'load_url_in_div', 'controllers/tab/settings/languages/languages.tpl', 16, false),array('modifier', 'assign', 'controllers/tab/settings/languages/languages.tpl', 15, false),)), $this); ?>

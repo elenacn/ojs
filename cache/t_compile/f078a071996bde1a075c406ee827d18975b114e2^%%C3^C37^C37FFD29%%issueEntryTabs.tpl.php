@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:40:06
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:28:33
          compiled from controllers/modals/submissionMetadata/issueEntryTabs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/modals/submissionMetadata/issueEntryTabs.tpl', 28, false),array('function', 'translate', 'controllers/modals/submissionMetadata/issueEntryTabs.tpl', 28, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 15:01:15
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 17:18:01
          compiled from frontend/objects/article_details.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'frontend/objects/article_details.tpl', 69, false),array('modifier', 'strip_unsafe_html', 'frontend/objects/article_details.tpl', 149, false),array('modifier', 'nl2br', 'frontend/objects/article_details.tpl', 204, false),array('modifier', 'date_format', 'frontend/objects/article_details.tpl', 259, false),array('function', 'translate', 'frontend/objects/article_details.tpl', 116, false),array('function', 'call_hook', 'frontend/objects/article_details.tpl', 153, false),array('function', 'url', 'frontend/objects/article_details.tpl', 221, false),array('block', 'iterate', 'frontend/objects/article_details.tpl', 200, false),)), $this); ?>

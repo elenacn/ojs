@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 14:47:46
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:29:04
          compiled from controllers/informationCenter/notesList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'iterate', 'controllers/informationCenter/notesList.tpl', 12, false),array('function', 'translate', 'controllers/informationCenter/notesList.tpl', 18, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:15:05
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-08 19:51:20
          compiled from frontend/pages/information.tpl */ ?>
 <?php if (! $this->_tpl_vars['contentOnly']): ?>
 	<?php $_smarty_tpl_vars = $this->_tpl_vars;

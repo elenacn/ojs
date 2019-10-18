@@ -179,7 +179,7 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 }
 
 @media only screen and (min-width: 1024px) {
-	.pkp_structure_head {
+	/*.pkp_structure_head {
 		position: sticky;
 		top: -75px;
 		z-index: 50;
@@ -188,12 +188,12 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 		position: sticky;
 		top: -20px;
 		z-index: 1000;
-	}
+	}*/
 	.icondown {
         	display: none;
     	}
 }
-.transparent {
+/*.transparent {
     	padding-left: 0;
     	list-style: none;
     	background: transparent;
@@ -208,6 +208,19 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
     	position: relative;
     	background-attachment: fixed;
 	border-radius: 0px 0px 165px 0px;
+}*/
+.transparent {
+    opacity: 1;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 0px 0px 165px 0px;
+    background: url(/ojs/public/journals/1/CIEdificio.jpg) no-repeat center center fixed;
+        background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
 }
 .transparent_side {
     	height: 660px;
@@ -373,4 +386,28 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 /*------------------------------------color para links externos e internos--------------*/
 .linkext:hover {
 	color: #007ab2;
+}
+
+.obj_issue_toc .section{
+	padding: 15 px !important;
+	border-bottom: 2px solid #666;
+}
+.description{
+	padding: 15px;
+}
+.resource-view.toc .heading-ref.active {
+	border-bottom: 1px solid #e26627 !important;
+	border-left: 1px solid #e26627 !important;
+}
+.article .resources .nodes > .content-node.publication-info .content-node[data-id="articleinfo"] .heading.level-3 .content {
+    font-size: 16px !important;
+}
+.lens-article .content-node.publication-info {
+    font-size: 14px !important;
+}
+.article span.strong {
+    font-size: 17px !important;
+}
+.content-node .strong {
+    font-family: Noto Sans !important;
 }

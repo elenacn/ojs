@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-12 20:34:56
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 17:47:08
          compiled from controllers/grid/articleGalleys/editFormat.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/grid/articleGalleys/editFormat.tpl', 18, false),array('function', 'translate', 'controllers/grid/articleGalleys/editFormat.tpl', 18, false),)), $this); ?>

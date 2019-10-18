@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-08-17 15:01:15
+<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 17:18:01
          compiled from frontend/components/breadcrumbs_article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'frontend/components/breadcrumbs_article.tpl', 18, false),array('function', 'url', 'frontend/components/breadcrumbs_article.tpl', 21, false),array('modifier', 'escape', 'frontend/components/breadcrumbs_article.tpl', 42, false),)), $this); ?>
