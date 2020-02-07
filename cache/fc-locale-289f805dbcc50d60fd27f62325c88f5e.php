@@ -115,7 +115,7 @@
   'common.queue.long.myAssigned' => 'My Assigned',
   'common.queue.long.submissionsArchived' => 'Archived Submissions',
   'submission.authors' => 'Authors',
-  'submission.authorBiography' => 'Author Biography',
+  'submission.authorBiography' => 'Résumé',
   'submission.authorBiographies' => 'Author Biographies',
   'submission.authorWithAffiliation' => '{$name}, {$affiliation}',
   'submission.shortAuthor' => '{$author} et al.',

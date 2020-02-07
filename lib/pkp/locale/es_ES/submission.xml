@@ -631,7 +631,7 @@
 	<message key="submission.publisherId">Identificador público de la URL</message>
 	<message key="author.submission.roundStatus.reviewsReady">Se han enviado nuevas revisiones y están siendo consideradas por el editor/a.</message>
 	<message key="submission.submit.copyrightNoticeAgreementLabel">Aceptar la declaración de derechos de autor</message>
-	<message key="submission.authorBiography">Biografía del autor/a</message>
+	<message key="submission.authorBiography">Semblanza</message>
 	<message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
 	<message key="submission.event.participantAdded">Se añadió a "{$name}" ({$username}) como {$userGroupName}.</message>
 	<message key="submission.howToCite">Cómo citar</message>

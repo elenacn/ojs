@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:33:25
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 18:27:20
          compiled from core:controllers/tab/settings/appearance/form/sidebar.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'core:controllers/tab/settings/appearance/form/sidebar.tpl', 16, false),array('function', 'load_url_in_div', 'core:controllers/tab/settings/appearance/form/sidebar.tpl', 17, false),array('modifier', 'assign', 'core:controllers/tab/settings/appearance/form/sidebar.tpl', 16, false),)), $this); ?>

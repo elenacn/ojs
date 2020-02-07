@@ -80,25 +80,27 @@
 				</span>
 			</div>
 		{/if}
+		{* Full-issue galleys *}
+		{if $issueGalleys}
+			<div class="galleys">
+				<h2>
+					{translate key="issue.fullIssue"}
+				</h2>
+				<ul class="galleys_links">
+					{foreach from=$issueGalleys item=galley}
+						<li>
+							{include file="frontend/objects/galley_link.tpl" parent=$issue purchaseFee=$currentJournal->getSetting('purchaseIssueFee') purchaseCurrency=$currentJournal->getSetting('currency')}
+						</li>
+					{/foreach}
+				</ul>
+			</div>
+		{/if}
 	</div>
 
-	{* Full-issue galleys *}
-	{if $issueGalleys}
-		<div class="galleys">
-			<h2>
-				{translate key="issue.fullIssue"}
-			</h2>
-			<ul class="galleys_links">
-				{foreach from=$issueGalleys item=galley}
-					<li>
-						{include file="frontend/objects/galley_link.tpl" parent=$issue purchaseFee=$currentJournal->getSetting('purchaseIssueFee') purchaseCurrency=$currentJournal->getSetting('currency')}
-					</li>
-				{/foreach}
-			</ul>
-		</div>
-	{/if}
+	
 
 	{* Articles *}
+	<!-- <h3 style="">CONTENIDO</h3> -->
 	<div class="sections">
 	{foreach name=sections from=$publishedArticles item=section}
 		<div class="section">

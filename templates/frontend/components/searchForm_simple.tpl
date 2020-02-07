@@ -16,8 +16,8 @@
 		<button type="submit">
 			{translate key="common.search"}
 		</button>
-		<div class="search_controls" aria-hidden="true">
-			<a href="{url page="search" op="search"}" class="headerSearchPrompt search_prompt" aria-hidden="true">
+		<div class="search_controls" aria-hidden="false">
+			<a href="{url page="search" op="search"}" class="headerSearchPrompt search_prompt" aria-hidden="false">
 				{translate key="common.search"}
 			</a>
 			<a href="#" class="search_cancel headerSearchCancel" aria-hidden="true"></a>

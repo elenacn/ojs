@@ -189,7 +189,7 @@
 	<message key="grid.user.allRoles">Todos los roles</message>
 	<message key="grid.user.allPermissionLevels">Todos los niveles de permisos</message>
 	<message key="grid.user.add">Añade usuario/a</message>
-	<message key="grid.user.enroll">Registra usuario/a</message>
+	<message key="grid.user.enroll">Registra usuario/a</message> (España)
 	<message key="grid.user.edit">Edita usuario/a</message>
 	<message key="grid.user.email">Correo electrónico</message>
 	<message key="grid.user.enable">Activa</message>

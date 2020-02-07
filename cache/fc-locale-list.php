@@ -43,7 +43,7 @@
   array (
     'key' => 'es_ES',
     'complete' => 'true',
-    'name' => 'Español (España)',
+    'name' => 'Español',
     'iso639-2b' => 'spa',
     'iso639-3' => 'spa',
   ),

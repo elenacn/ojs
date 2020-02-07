@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:29:04
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-07 19:11:15
          compiled from controllers/informationCenter/notes.tpl */ ?>
 <script type="text/javascript">
 	// Attach the Notes handler.

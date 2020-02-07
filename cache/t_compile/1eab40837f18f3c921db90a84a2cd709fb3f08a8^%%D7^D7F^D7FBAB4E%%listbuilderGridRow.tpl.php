@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:33:26
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 18:27:20
          compiled from controllers/listbuilder/listbuilderGridRow.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'concat', 'controllers/listbuilder/listbuilderGridRow.tpl', 11, false),array('modifier', 'uniqid', 'controllers/listbuilder/listbuilderGridRow.tpl', 13, false),array('modifier', 'escape', 'controllers/listbuilder/listbuilderGridRow.tpl', 15, false),)), $this); ?>

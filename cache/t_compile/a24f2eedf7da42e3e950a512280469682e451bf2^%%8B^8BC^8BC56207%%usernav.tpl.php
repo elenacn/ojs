@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:05
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:04:09
          compiled from header/usernav.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'header/usernav.tpl', 11, false),array('function', 'translate', 'header/usernav.tpl', 24, false),array('function', 'load_url_in_el', 'header/usernav.tpl', 75, false),array('modifier', 'assign', 'header/usernav.tpl', 11, false),array('modifier', 'escape', 'header/usernav.tpl', 24, false),array('modifier', 'count', 'header/usernav.tpl', 87, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-11 19:49:24
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-07 17:29:28
          compiled from frontend/pages/indexJournal.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'call_hook', 'frontend/pages/indexJournal.tpl', 30, false),array('function', 'translate', 'frontend/pages/indexJournal.tpl', 42, false),array('function', 'url', 'frontend/pages/indexJournal.tpl', 54, false),array('modifier', 'escape', 'frontend/pages/indexJournal.tpl', 34, false),array('modifier', 'count', 'frontend/pages/indexJournal.tpl', 39, false),array('modifier', 'strip_unsafe_html', 'frontend/pages/indexJournal.tpl', 75, false),)), $this); ?>
@@ -9,7 +9,7 @@ unset($_smarty_tpl_vars);
  ?>
 
 <div class="page_index_journal">
-    <p><a href="https://revistafiguras.acatlan.unam.mx/ojs/public/journals/1/galeria01/templates/indexGallery.html" title="Galería" target="_blank"><img src="/ojs/public/journals/1/bannerAcatlan.gif"/></a></p>
+    <p><a href="https://revistafiguras.acatlan.unam.mx/ojs/public/journals/1/galeria01/templates/indexGallery.html" title="Galería Voz a tu mirada" target="_blank"><img src="/ojs/public/journals/1/bannerAcatlan.gif" alt="Galería Voz a tu mirada"/></a></p>
     	<?php if ($this->_tpl_vars['additionalHomeContent']): ?>
 		<div class="additional_content">
 			<?php echo $this->_tpl_vars['additionalHomeContent']; ?>
@@ -94,12 +94,15 @@ unset($_smarty_tpl_vars);
 	<?php endif; ?>
 
 	<!--aqui yace additional content-->
+	<section>
+		<div class="fixed-bg" style=""></div>
+		<div class="fixed-bg" style="width: 83%;"></div>
+	</section>
 
-    <section class="transparent"></section>
+   <!-- <section class="transparent"></section>
+	<section class="transparent2"></section> -->
 
 </div><!-- .page -->
-
-
 
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "frontend/components/footer.tpl", 'smarty_include_vars' => array()));

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 16:34:28
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:05:20
          compiled from controllers/grid/issues/issue.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'controllers/grid/issues/issue.tpl', 18, false),array('function', 'translate', 'controllers/grid/issues/issue.tpl', 18, false),)), $this); ?>

@@ -1,5 +1,6 @@
 <?php return array (
   'content' => '<script>
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {

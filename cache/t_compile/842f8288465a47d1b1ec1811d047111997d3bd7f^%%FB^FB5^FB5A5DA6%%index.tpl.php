@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:03
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:04:09
          compiled from dashboard/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'dashboard/index.tpl', 20, false),array('function', 'help', 'dashboard/index.tpl', 28, false),array('modifier', 'uniqid', 'dashboard/index.tpl', 30, false),array('modifier', 'escape', 'dashboard/index.tpl', 30, false),)), $this); ?>

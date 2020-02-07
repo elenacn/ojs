@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 16:34:17
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:04:10
          compiled from manageIssues/issuesTabs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'manageIssues/issuesTabs.tpl', 19, false),array('function', 'help', 'manageIssues/issuesTabs.tpl', 23, false),array('function', 'url', 'manageIssues/issuesTabs.tpl', 24, false),array('function', 'load_url_in_div', 'manageIssues/issuesTabs.tpl', 25, false),array('modifier', 'assign', 'manageIssues/issuesTabs.tpl', 24, false),)), $this); ?>

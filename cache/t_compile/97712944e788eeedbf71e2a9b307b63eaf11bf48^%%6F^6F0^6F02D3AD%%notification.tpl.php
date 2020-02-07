@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 16:47:46
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:05:07
          compiled from frontend/components/notification.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'frontend/components/notification.tpl', 15, false),array('modifier', 'replace', 'frontend/components/notification.tpl', 15, false),array('function', 'translate', 'frontend/components/notification.tpl', 17, false),)), $this); ?>

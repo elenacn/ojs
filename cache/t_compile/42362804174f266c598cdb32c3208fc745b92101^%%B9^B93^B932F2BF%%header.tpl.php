@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-15 17:51:23
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 17:18:56
          compiled from frontend/components/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'frontend/components/header.tpl', 23, false),array('modifier', 'assign', 'frontend/components/header.tpl', 24, false),array('modifier', 'escape', 'frontend/components/header.tpl', 26, false),array('modifier', 'default', 'frontend/components/header.tpl', 26, false),array('function', 'translate', 'frontend/components/header.tpl', 24, false),array('function', 'url', 'frontend/components/header.tpl', 47, false),array('function', 'load_menu', 'frontend/components/header.tpl', 86, false),)), $this); ?>

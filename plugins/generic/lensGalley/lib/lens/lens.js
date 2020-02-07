@@ -950,7 +950,7 @@
 						})]
 					})), this.node.emails.length > 0 && this.content.appendChild(i(".emails.contrib-data", {
 						children: [i("span.contrib-label", {
-							text: "Contacto: "
+							text: "For correspondence: "
 						}), i("span", {
 							children: o.map(this.node.emails, function(t) {
 								return i("a", {
@@ -1092,7 +1092,7 @@
 		a.Prototype = function() {
 			this.render = function() {
 				r.prototype.render.call(this), this.content.appendChild(i(".back-button", {
-					html: '<a class="back-button" href="./"><img alt="Back" src="/ojs/public/journals/1/Favicon_35x35.png"></a>'
+					html: '<a class="back-button" href="./" title="Back"><img alt="" src="/ojs/public/journals/1/Favicon30x30.png"></a>'
 				}));
 				var t = this.node,
 					e = this.node.document.get("publication_info");
@@ -2539,7 +2539,7 @@
 				if (this.node.article_type) {
 					var e = r(".article-type.container", {
 						children: [r("div.label", {
-							text: "Tipo de artículo"
+							text: "Article Type"
 						}), r("div.value", {
 							text: this.node.article_type
 						})]
@@ -3289,7 +3289,7 @@
 				list: "definition_reference",
 				fn: "footnote_reference"
 			}, this._contribTypeMapping = {
-				author: "Autor",
+				author: "Author",
 				"author non-byline": "Author",
 				autahor: "Author",
 				auther: "Author",
@@ -3519,7 +3519,7 @@
 						type: "heading",
 						id: t.nextId("heading"),
 						level: 3,
-						content: "Derechos de autor y Licencia"
+						content: "Copyright & License"
 					};
 					i.create(a), n.push(a.id);
 					var c, u = s.querySelector("copyright-statement");
@@ -4485,7 +4485,7 @@
 				type: "resource",
 				name: "figures",
 				container: "figures",
-				title: "Figuras",
+				title: "Figures",
 				icon: "fa-picture-o",
 				references: ["figure_reference"],
 				zoom: !0
@@ -4494,7 +4494,7 @@
 				type: "resource",
 				name: "citations",
 				container: "citations",
-				title: "Referencias",
+				title: "References",
 				icon: "fa-link",
 				references: ["citation_reference"]
 			}),
@@ -4502,7 +4502,7 @@
 				type: "resource",
 				name: "definitions",
 				container: "definitions",
-				title: "Glosario",
+				title: "Glossary",
 				icon: "fa-book",
 				references: ["definition_reference"]
 			}),
@@ -4510,7 +4510,7 @@
 				type: "resource",
 				name: "info",
 				container: "info",
-				title: "",
+				title: "Info",
 				icon: "fa-info",
 				references: ["contributor_reference"]
 			});
@@ -4894,7 +4894,7 @@
 					type: "document",
 					container: "content",
 					label: "Contents",
-					title: "Contenidos",
+					title: "Contents",
 					icon: "fa-align-left"
 				})
 			};

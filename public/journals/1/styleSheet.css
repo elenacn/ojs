@@ -69,6 +69,9 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
     	margin-left: 50px;
     	margin-right: 50px;
 }
+.pkp_site_name .is_img img {
+	padding-top: 10px;
+}
 .pkp_head_wrapper .pkp_search .search_controls a {
     	margin-right: 50px;
 }
@@ -179,11 +182,12 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 }
 
 @media only screen and (min-width: 1024px) {
-	/*.pkp_structure_head {
+	.pkp_structure_head {
 		position: sticky;
-		top: -75px;
+		top: -70px;
 		z-index: 50;
 	}
+	/*
 	.pkp_site_name_wrapper {
 		position: sticky;
 		top: -20px;
@@ -193,35 +197,43 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
         	display: none;
     	}
 }
-/*.transparent {
-    	padding-left: 0;
-    	list-style: none;
-    	background: transparent;
-    	opacity: 1;
-    	background-image: url(/ojs/public/journals/1/CIEdificio.jpg);
-    	background-size: cover;
-     	-webkit-background-size: cover;
-    	background-repeat: no-repeat;
-    	background-position: center;
-    	width: 100%;
-    	height: 150px;
-    	position: relative;
-    	background-attachment: fixed;
-	border-radius: 0px 0px 165px 0px;
-}*/
+/*.transparent2 {
+    opacity: 1;
+    width: 83%;
+    height: 150px;
+    position: relative;
+    border-radius: 0px 0px 165px 0px;
+    background: url(/ojs/public/journals/1/detalle-disparo-pared-dibujos_1359-993.jpg) no-repeat center center fixed;
+        background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+	top: 20px;
+}
 .transparent {
     opacity: 1;
     width: 100%;
     height: 150px;
     position: relative;
     border-radius: 0px 0px 165px 0px;
-    background: url(/ojs/public/journals/1/CIEdificio.jpg) no-repeat center center fixed;
+    background: url(/ojs/public/journals/1/detalle-disparo-pared-dibujos_1359-993.jpg) no-repeat center center fixed;
         background-size: auto auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 	background-size: cover;
-}
+}*/
+.fixed-bg {
+	background-image: url("/ojs/public/journals/1/primer-plano-construccion-rascacielos-terminado_23-2148233771.jpg");
+	min-height: 150px;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 0px 0px 165px 0px;
+	background-size: 100% 100%;
+  }
 .transparent_side {
     	height: 660px;
     	background: #fff;
@@ -328,11 +340,35 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 	font-size: 13px;
 }
 /*-----------------------pie de pagina img--------------------------------*/
-@media only screen and (max-width: 812px) {
+/* @media only screen and (max-width: 812px) {
 	.pkp_brand_footer {
-        	display: inline-table !important;
-    }
+		display: inline-table !important;
+		grid-template-columns: 270px 200px 180px !important;
+	}
+}*/
+@media only screen and (max-width: 1200px) {
+	.pkp_brand_footer {
+		grid-template-columns: 270px 200px 180px !important;
+	}
+	.pkp_site_name_wrapper {
+		margin-top: 0 !important;
+	}
 }
+@media only screen and (max-width: 800px){
+	.pkp_brand_footer {
+			display: inline-table !important;
+			padding: 0 !important;
+			margin: 20px;
+	}
+	.pkp_site_name {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.pkp_site_name_wrapper {
+		margin-top: 0 !important;
+	}
+} 
 .pkp_brand_footer {
 	background-color: #000;
 	display: grid;
@@ -410,4 +446,7 @@ a:hover, a:focus { text-decoration: none; text-decoration-color: currentColor; t
 }
 .content-node .strong {
     font-family: Noto Sans !important;
+}
+.obj_issue_toc .galleys h2 {
+	background: none !important;
 }

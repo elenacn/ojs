@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 16:51:11
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 15:29:09
          compiled from frontend/components/navigationMenus/dashboardMenuItem.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape', 'frontend/components/navigationMenus/dashboardMenuItem.tpl', 12, false),)), $this); ?>

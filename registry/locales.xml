@@ -22,7 +22,7 @@
 	<locale key="da_DK" complete="false" name="Dansk" iso639-2b="dan" iso639-3="dan" />
 	<locale key="de_DE" complete="true"  name="Deutsch" iso639-2b="ger" iso639-3="deu" />
 	<locale key="en_US" complete="true"  name="English" iso639-2b="eng" iso639-3="eng" />
-	<locale key="es_ES" complete="true"  name="Español (España)" iso639-2b="spa" iso639-3="spa" />
+	<locale key="es_ES" complete="true"  name="Español" iso639-2b="spa" iso639-3="spa" />
 	<locale key="eu_ES" complete="false" name="Euskara" iso639-2b="eus" iso639-3="eus" />
 	<locale key="fa_IR" complete="true"  name="فارسی" iso639-2b="per" iso639-3="per" direction="rtl" />
 	<locale key="fi_FI" complete="true" name="Suomi" iso639-2b="fin" iso639-3="fin" />	

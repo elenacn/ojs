@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 16:34:17
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:04:10
          compiled from manageIssues/issues.tpl */ ?>
 <?php echo ''; ?><?php $this->assign('pageTitle', "editor.navigation.issues"); ?><?php echo ''; ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "common/header.tpl", 'smarty_include_vars' => array()));

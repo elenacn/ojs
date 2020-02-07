@@ -23,6 +23,8 @@
   'emailSignature' => '<br/>
 ________________________________________________________________________<br/>
 <a href="{$contextUrl}">{$contextName}</a>',
+  'enableAnnouncements' => true,
+  'enableAnnouncementsHomepage' => true,
   'enableAuthorSelfArchive' => false,
   'itemsPerPage' => 25,
   'keywordsEnabledSubmission' => true,
@@ -35,6 +37,7 @@ ________________________________________________________________________<br/>
   'mailingAddress' => 'Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México. Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México.',
   'membershipFee' => 0,
   'navItems' => NULL,
+  'numAnnouncementsHomepage' => 1,
   'numPageLinks' => 10,
   'numWeeksPerReview' => 4,
   'onlineIssn' => '',
@@ -212,13 +215,34 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
 <div class="pkp_brand_footer3" role="complementary"><a href="https://es-la.facebook.com/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-facebook.png"> </a> <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-twitter.png"> </a> <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-instagram.png"> </a></div>
 </div>
 <p>El contenido de los textos es responsabilidad de los autores y no refleja forzosamente el punto de vista de los dictaminadores o de los miembros del comité editorial de la revista, de la Facultad de Estudios Superiores Acatlán ni de la Universidad Nacional Autónoma de México. Se autoriza la reproducción de los artículos a reserva de citar la fuente exacta y de respetar los derechos de autor.</p>',
-    'es_ES' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos otorgados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: 01 de octubre de 2019.</p>
+    'es_ES' => '<p><span id="figuras">Figūras: </span>Revista académica de investigación. 2019. Es una publicación cuatrimestral editada por la Facultad de Estudios Superiores Acatlán, Universidad Nacional Autónoma de México a través de la Secretaría de Posgrado e Investigación. Av. Alcanfores y San Juan Totoltepec s/n, Sta. Cruz Acatlán, C.P. 53150 Naucalpan de Juárez, Estado de México; teléfono 56231750, extensión: 38963. http://localhost/ojs/index.php/revista/index, correo electrónico: revistafiguras@apolo.acatlan.unam.mx. Editor responsable: Miguel Ángel de la Calleja. Reserva de Derechos al Uso Exclusivo del Título: "en trámite", ISSN: "en trámite", ambos otorgados por el Instituto Nacional del Derecho de Autor. Responsable de la última actualización de este número Mónica Elena Cruz Nájera y Daniel de la Garza Cordero. Fecha de última modificación: <span id="fecha"></span>.</p>
 <div class="pkp_brand_footer" role="complementary">
 <div class="pkp_brand_footer1" role="complementary"><a href="https://www.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoUNAM-blanco-F-50px.png"> </a> <a href="https://www.acatlan.unam.mx/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/logoFESAcompleto-blanco-45px.png"> </a></div>
 <div class="pkp_brand_footer2" role="complementary"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licencia Creative Commons"></a><a href="https://www.publicaciones.unam.mx/Normatividad.html#bloque-ii" target="_blank" rel="noopener"> <img src="/ojs/templates/images/OpenAccess.png"> </a></div>
 <div class="pkp_brand_footer3" role="complementary"><a href="https://es-la.facebook.com/" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-facebook.png"> </a> <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-twitter.png"> </a> <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noopener"> <img src="/ojs/templates/images/icono-instagram.png"> </a></div>
 </div>
-<p>El contenido de los textos es responsabilidad de los autores y no refleja forzosamente el punto de vista de los dictaminadores o de los miembros del comité editorial de la revista, de la Facultad de Estudios Superiores Acatlán ni de la Universidad Nacional Autónoma de México. Se autoriza la reproducción de los artículos a reserva de citar la fuente exacta y de respetar los derechos de autor.</p>',
+<p>El conten1/index.php/figuras/indexido de los textos es responsabilidad de los autores y no refleja forzosamente el punto de vista de los dictaminadores o de los miembros del comité editorial de la revista, de la Facultad de Estudios Superiores Acatlán ni de la Universidad Nacional Autónoma de México. Se autoriza la reproducción de los artículos a reserva de citar la fuente exacta y de respetar los derechos de autor.</p>',
+  ),
+  'pageHeaderLogoImage' => 
+  array (
+    'en_US' => 
+    array (
+      'name' => 'cabeza800px-color1.jpg',
+      'uploadName' => 'pageHeaderLogoImage_en_US.jpg',
+      'width' => 800,
+      'height' => 40,
+      'dateUploaded' => '2020-02-06 15:28:56',
+      'altText' => '',
+    ),
+    'es_ES' => 
+    array (
+      'name' => 'cabeza800px-color3.jpg',
+      'uploadName' => 'pageHeaderLogoImage_es_ES.jpg',
+      'width' => 800,
+      'height' => 40,
+      'dateUploaded' => '2020-02-06 15:28:32',
+      'altText' => '',
+    ),
   ),
   'privacyStatement' => 
   array (
@@ -284,6 +308,11 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
 	<li>Turn that phrase into a hyperlink by highlighting the phrase and using Word\'s Insert Hyperlink tool and the appropriate URL prepared in #2.</li>
 	</ol>',
     'es_ES' => '<h4>Añadir enlaces de referencia en el proceso de maquetación</h4> <p>Al convertir un envío a HTML o PDF, asegúrese de que todos los hipervínculos del envío están activos.</p> <h4>A. Si el autor/a proporciona un enlace con la referencia</h4> <ol> <li>Mientras el envío se encuentre todavía en formato de procesador de textos (p. ej., Word), añada la frase VER ELEMENTO al final de la referencia con la dirección URL.</li> <li>Convierta esa frase en un hipervínculo seleccionándola y utilizando la herramienta de Word Insertar hipervínculo y la dirección URL previa.</li> </ol> <h4>B. Permitir a los lectores/as buscar referencias en Google Académico</h4> <ol> <li>Mientras el envío se encuentre todavía en formato de procesador de textos (p. ej., Word), copie el título del trabajo referenciado en la lista de referencias (si el título es muy común —p. ej., "Paz"— copie también el autor).</li> <li>Pegue el título de la referencia entre los dos símbolos %22 y coloque un símbolo + entre cada palabra: http://scholar.google.com/sc?q=%22PEGAR+TÍTULO+AQUÍ%22</li> <li>Añada la frase BÚSQUEDA GOOGLE ACADÉMICO al final de cada cita en la lista de referencias del envío.</li> <li>Convierta esa frase en un hipervínculo seleccionándola y utilizando la herramienta de Word Insertar hipervínculo y la dirección URL preparada en el apartado nº 2.</li> </ol> <h4>C. Permitir a los lectores/as buscar referencias con un DOI</h4> <ol> <li>Mientras el envío se encuentre todavía en Word, copie un lote de referencias en el texto de consulta CrossRef http://www.crossref.org/freeTextQuery/.</li> <li>Pegue cada DOI que le proporcione la consulta en la siguiente dirección URL (entre = y &amp;): http://www.cmaj.ca/cgi/external_ref?access_num=PEGAR DOI#AQUÍ&amp;link_type=DOI.</li> <li>Añada la frase CrossRef al final de cada cita en la lista de referencias del envío.</li> <li>Convierta esa frase en un hipervínculo seleccionándola y utilizando la herramienta de Word Insertar hipervínculo y la dirección URL preparada en el apartado nº 2.</li> </ol>',
+  ),
+  'searchDescription' => 
+  array (
+    'en_US' => 'Figūras: Revista académica de investigación is a triannual publication of scientific and humanistic research, edited by the Facultad de Estudios Superiores Acatlán-UNAM. It publishes, in either Spanish or English, original articles (open peer reviewed), essays and reviews on the five academic fields formed in the institution with the purposes of intensifying the sharing of academic discussion, contributing to the construction of basic and applied research, and promoting as well as disseminating its results in and out of Mexico.',
+    'es_ES' => 'Figūras: Revista académica de investigación es una publicación cuatrimestral de investigación científica y humanística editada por la Facultad de Estudios Superiores Acatlán-UNAM que publica, en español o inglés, artículos originales (arbitrados por revisión por pares abierta), ensayos y reseñas críticas en los cinco campos de conocimiento cultivados en la entidad, con los objetivos de intensificar la participación del diálogo académico, contribuir en la con-figuración de la investigación básica y aplicada y promover y difundir sus resultados en México y en el extranjero.',
   ),
   'submissionChecklist' => 
   array (
@@ -363,17 +392,5 @@ al.</strong> El corrector/a de la revista editará el texto para mejorar la flui
   'name' => 
   array (
     'es_ES' => 'FIGURAS',
-  ),
-  'pageHeaderLogoImage' => 
-  array (
-    'es_ES' => 
-    array (
-      'name' => 'Figuras-Arq3.jpg',
-      'uploadName' => 'pageHeaderLogoImage_es_ES.jpg',
-      'width' => 418,
-      'height' => 130,
-      'dateUploaded' => '2018-09-29 15:59:28',
-      'altText' => '',
-    ),
   ),
 ); ?>

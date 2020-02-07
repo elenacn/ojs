@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:06
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:04:09
          compiled from controllers/grid/columnGroup.tpl */ ?>
 
 <colgroup>

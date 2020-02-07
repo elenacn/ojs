@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 16:51:11
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:58:42
          compiled from frontend/components/searchForm_simple.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'frontend/components/searchForm_simple.tpl', 13, false),array('function', 'csrf', 'frontend/components/searchForm_simple.tpl', 14, false),array('function', 'translate', 'frontend/components/searchForm_simple.tpl', 15, false),array('modifier', 'escape', 'frontend/components/searchForm_simple.tpl', 15, false),)), $this); ?>
@@ -14,9 +14,9 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'fron
 			<?php echo $this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "common.search"), $this);?>
 
 		</button>
-		<div class="search_controls" aria-hidden="true">
+		<div class="search_controls" aria-hidden="false">
 			<a href="<?php echo $this->_plugins['function']['url'][0][0]->smartyUrl(array('page' => 'search','op' => 'search'), $this);?>
-" class="headerSearchPrompt search_prompt" aria-hidden="true">
+" class="headerSearchPrompt search_prompt" aria-hidden="false">
 				<?php echo $this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "common.search"), $this);?>
 
 			</a>

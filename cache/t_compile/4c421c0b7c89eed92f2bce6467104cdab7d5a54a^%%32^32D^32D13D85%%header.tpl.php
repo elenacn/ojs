@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 16:51:10
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 15:29:07
          compiled from common/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'common/header.tpl', 13, false),array('function', 'url', 'common/header.tpl', 15, false),)), $this); ?>

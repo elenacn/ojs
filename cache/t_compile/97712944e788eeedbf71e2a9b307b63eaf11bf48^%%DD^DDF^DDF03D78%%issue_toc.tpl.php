@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 16:51:11
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 15:29:09
          compiled from frontend/objects/issue_toc.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'url', 'frontend/objects/issue_toc.tpl', 32, false),array('function', 'translate', 'frontend/objects/issue_toc.tpl', 69, false),array('modifier', 'escape', 'frontend/objects/issue_toc.tpl', 33, false),array('modifier', 'strip_unsafe_html', 'frontend/objects/issue_toc.tpl', 40, false),array('modifier', 'date_format', 'frontend/objects/issue_toc.tpl', 79, false),)), $this); ?>
@@ -79,31 +79,33 @@ unset($_smarty_tpl_vars);
 				</span>
 			</div>
 		<?php endif; ?>
-	</div>
+				<?php if ($this->_tpl_vars['issueGalleys']): ?>
+			<div class="galleys">
+				<h2>
+					<?php echo $this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "issue.fullIssue"), $this);?>
 
-		<?php if ($this->_tpl_vars['issueGalleys']): ?>
-		<div class="galleys">
-			<h2>
-				<?php echo $this->_plugins['function']['translate'][0][0]->smartyTranslate(array('key' => "issue.fullIssue"), $this);?>
-
-			</h2>
-			<ul class="galleys_links">
-				<?php $_from = $this->_tpl_vars['issueGalleys']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+				</h2>
+				<ul class="galleys_links">
+					<?php $_from = $this->_tpl_vars['issueGalleys']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['galley']):
 ?>
-					<li>
-						<?php $_smarty_tpl_vars = $this->_tpl_vars;
+						<li>
+							<?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "frontend/objects/galley_link.tpl", 'smarty_include_vars' => array('parent' => $this->_tpl_vars['issue'],'purchaseFee' => $this->_tpl_vars['currentJournal']->getSetting('purchaseIssueFee'),'purchaseCurrency' => $this->_tpl_vars['currentJournal']->getSetting('currency'))));
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-					</li>
-				<?php endforeach; endif; unset($_from); ?>
-			</ul>
-		</div>
-	<?php endif; ?>
+						</li>
+					<?php endforeach; endif; unset($_from); ?>
+				</ul>
+			</div>
+		<?php endif; ?>
+	</div>
 
-		<div class="sections">
+	
+
+		<!-- <h3 style="">CONTENIDO</h3> -->
+	<div class="sections">
 	<?php $_from = $this->_tpl_vars['publishedArticles']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['sections'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['sections']['total'] > 0):
     foreach ($_from as $this->_tpl_vars['section']):

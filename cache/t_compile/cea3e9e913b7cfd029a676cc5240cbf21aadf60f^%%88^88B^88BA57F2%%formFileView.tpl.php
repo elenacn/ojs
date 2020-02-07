@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-09 19:33:25
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 18:27:20
          compiled from controllers/tab/settings/formFileView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'translate', 'controllers/tab/settings/formFileView.tpl', 16, false),array('modifier', 'escape', 'controllers/tab/settings/formFileView.tpl', 19, false),array('modifier', 'date_format', 'controllers/tab/settings/formFileView.tpl', 25, false),)), $this); ?>

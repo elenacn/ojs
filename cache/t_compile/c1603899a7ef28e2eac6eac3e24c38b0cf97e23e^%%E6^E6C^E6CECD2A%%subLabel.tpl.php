@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25-dev, created on 2019-10-01 18:19:14
+<?php /* Smarty version 2.6.25-dev, created on 2020-02-06 16:05:21
          compiled from form/subLabel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'concat', 'form/subLabel.tpl', 13, false),array('modifier', 'escape', 'form/subLabel.tpl', 20, false),array('function', 'translate', 'form/subLabel.tpl', 21, false),)), $this); ?>

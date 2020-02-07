@@ -487,7 +487,7 @@
   'submission.publisherId' => 'Identificador público de la URL',
   'author.submission.roundStatus.reviewsReady' => 'Se han enviado nuevas revisiones y están siendo consideradas por el editor/a.',
   'submission.submit.copyrightNoticeAgreementLabel' => 'Aceptar la declaración de derechos de autor',
-  'submission.authorBiography' => 'Biografía del autor/a',
+  'submission.authorBiography' => 'Semblanza',
   'submission.authorWithAffiliation' => '{$name}, {$affiliation}',
   'submission.event.participantAdded' => 'Se añadió a "{$name}" ({$username}) como {$userGroupName}.',
   'submission.howToCite' => 'Cómo citar',
